@@ -4076,7 +4076,17 @@ section.side-flowers {
 #giftregistry {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center
+    background-position: center center;
+    padding: 135px 0;
+}
+@media screen and (max-width: 768px) {
+    #giftregistry {
+        padding: 0;
+        background-color: #7fb174;    
+    }
+    #giftregistry .events-boxs {
+        background-color: #7fb174;    
+    }
 }
 
 #giftregistry .events-boxs{
